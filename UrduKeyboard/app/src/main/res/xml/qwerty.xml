@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+
+    <Row
+        >
+        <Key android:codes="1602"    android:keyLabel="ق"
+         android:keyEdgeFlags="left" />
+        <Key android:codes="1608"    android:keyLabel="و"    />
+        <Key android:codes="1593"    android:keyLabel="ع"  />
+        <Key android:codes="1585"    android:keyLabel="ر"   android:popupKeyboard="@xml/popup"  android:popupCharacters="ڑ" />
+        <Key android:codes="1578"    android:keyLabel="ت"  android:popupKeyboard="@xml/popup"  android:popupCharacters="ٹ"/>
+        <Key android:codes="1746"    android:keyLabel="ے"  android:popupKeyboard="@xml/popup"  android:popupCharacters="؎"/>
+        <Key android:codes="1569"    android:keyLabel="ء"  android:popupKeyboard="@xml/popup"  android:popupCharacters="ہ"/>
+
+        <Key android:codes="1662"    android:keyLabel="پ"  android:popupKeyboard="@xml/popup"  android:popupCharacters="ی" android:keyEdgeFlags="right"/>/>
+        />
+
+
+    </Row>
+    <Row>
+        <Key android:codes="1575"    android:keyLabel="ا"  android:popupKeyboard="@xml/popup"  android:popupCharacters="آ" android:keyEdgeFlags="left"  />
+        <!--<Key android:codes="1587"    android:keyLabel="س" android:popupKeyboard="@xml/popup"  android:popupCharacters="ص" />-->
+        <Key android:codes="1583"    android:keyLabel="د" android:popupKeyboard="@xml/popup"  android:popupCharacters="ڈ" />
+        <Key android:codes="1601"    android:keyLabel="ف" android:popupKeyboard="@xml/popup" />
+        <Key android:codes="1711"    android:keyLabel="گ" android:popupKeyboard="@xml/popup"  android:popupCharacters="غ" />
+        <Key android:codes="1726"    android:keyLabel="ھ" android:popupKeyboard="@xml/popup"  android:popupCharacters="ح" />
+        <Key android:codes="1580"    android:keyLabel="ج" android:popupKeyboard="@xml/popup"  android:popupCharacters="ض" />
+        <Key android:codes="1705"    android:keyLabel="ک" android:popupKeyboard="@xml/popup"  android:popupCharacters="خ" />
+        <Key android:codes="1604"    android:keyLabel="ل" android:keyEdgeFlags="right" />
+
+    </Row>
+    <Row>
+        <Key android:codes="1586"    android:keyLabel="ز"   android:keyEdgeFlags="left" android:popupKeyboard="@xml/popup"  android:popupCharacters="ذ" />
+        <Key android:codes="1588"    android:keyLabel="ش" android:popupKeyboard="@xml/popup"  android:popupCharacters="ژ" />
+        <Key android:codes="1670"    android:keyLabel="چ"  android:popupKeyboard="@xml/popup"  android:popupCharacters="ث"/>
+        <Key android:codes="1591"    android:keyLabel="ط"  android:popupKeyboard="@xml/popup"  android:popupCharacters="ظ"/>
+        <Key android:codes="1576"    android:keyLabel="ب" />
+        <Key android:codes="1606"    android:keyLabel="ن"   android:popupKeyboard="@xml/popup"  android:popupCharacters="ں"/>
+        <Key android:codes="1605"    android:keyLabel="م"   android:keyEdgeFlags="right"/>
+
+    </Row>
+    <Row>
+        <Key android:codes="48"   android:keyLabel="0" android:keyWidth="25%p"  android:keyEdgeFlags="left" android:popupKeyboard="@xml/popup"  android:popupCharacters="123456789" />
+
+
+
+
+        <Key android:codes="55006" android:keyLabel="CLR" android:keyEdgeFlags="right"/>
+
+        <Key android:codes="55003" android:keyIcon="@drawable/lft_icon" android:isRepeatable="true"  />
+        <Key android:codes="55002" android:keyIcon="@drawable/rit_icon" android:isRepeatable="true" />
+        <Key android:codes="10"  android:keyWidth="30%p" android:keyLabel="Enter" android:isRepeatable="true" android:keyEdgeFlags="right" />
+    </Row>
+    <Row>
+
+
+
+        <Key android:codes="55004" android:keyIcon="@drawable/end_icon"  android:keyEdgeFlags="left"/>
+        <Key android:codes="55001" android:keyIcon="@drawable/strt_icon"  />
+        <Key android:codes="32" android:keyWidth="50%p" android:keyLabel="Space"  />
+
+        <Key android:codes="-5"    android:keyLabel="Delete" android:isRepeatable="true"  />
+        <Key android:codes="-3"    android:keyLabel="Done"  android:keyEdgeFlags="right"/>
+
+    </Row>
+</Keyboard>
